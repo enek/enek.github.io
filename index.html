@@ -30,7 +30,7 @@
 
       <div class="masthead">
 		
-        <h3 class="text-muted"><img height="50" width="50" src="./Logo.png"> Generations Decorating</h3>
+        <h3 class="text-muted"><img height="50" width="50" src="./Logo.png">Generations Decorating</h3>
         <ul class="nav nav-justified">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#services">Services</a></li>
@@ -43,8 +43,9 @@
       <!-- Jumbotron -->
       <div class="jumbotron">
         <h1>GD Surface Coverings</h1>
-        <p class="lead">Hand crafted elegant surface coverings suitable for any application!</p>
-        <p><a href="#contact" class="btn btn-primary btn-lg" role="button">Request a Quote</a></p>
+        <p class="lead">Hand crafted elegant surface coverings suitable for any application!
+		Transform any surfance using the endless possibilities of paper.</p>
+        <p><a href="#contact" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact" role="button">Request a Quote</a></p>
       </div>
 		
 
@@ -54,10 +55,11 @@
           <h2>Applications</h2>
 		  <p>GD Coverings are suitable for nearly any surface! Example applications include:</p> 
 		  <ul>
-		  <li>Basements, Kitchens, Resturants
+		  <li>Basements, Bathrooms, Kitchens, Children Rooms, Hallways, Garages
+		  <li>Resturants, Retail, Hotels
 		  <li>Outdoor Patios, Docks, Walkways
-		  <li>Concrete, Wood, Laminate, Linoleum
-		  <li>Tables, Walls and Furniture
+		  <li>Concrete, Subfloor, Laminate, Linoleum
+		  <li>Tables, Countertops, Closets, Furniture
 		  </ul>
         </div>
         <div class="col-sm-4">
@@ -73,8 +75,10 @@
 		  </ul>
        </div>
         <div class="col-sm-4">
-          <h2>Designs</h2>
-          <p>Elegant hand crafted designs can be customized to suit any style.</p>
+          <h2>Spotlight</h2>
+          <p><i>"Some seriously off-the-wall-floors"</i> by Jane Marshall, Edmonton Journal. <br/>
+		  Papier-mâché process creates one-of-a-kind covering.</p>
+		  <p><a class="btn btn-primary" role="button" target="_new" href="http://www2.canada.com/edmontonjournal/news/story.html?id=90395eeb-3bd0-4069-891c-f1beff1858cf">Read the full article &raquo;</a></p>
         </div>
       </div>
 	  
@@ -88,51 +92,38 @@
               <h3 class="panel-title">Flooring</h3>
             </div>
             <div class="panel-body">
-              Panel content
+              <ul>
+			  <li>Poly Paper Flooring
+			  <li>Wallpaper Floors
+			  <li>Paper Mache Floors
+			  </ul>
             </div>
           </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Walls</h3>
             </div>
             <div class="panel-body">
-              Panel content
+			  <ul>
+              <li>Traditional Wallpaper
+			  <li>Painting
+			  </ul>
             </div>
           </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Waterproofing</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Renovations</h3>
             </div>
             <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Decks</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Landscaping</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
+              <ul>
+			  <li>Painting
+			  <li>Drywall
+			  <li>Flooring
+			  </ul>
             </div>
           </div>
         </div><!-- /.col-sm-4 -->
@@ -144,16 +135,26 @@
 	  
 	  <div class="row">
 	    <div class="col-xs-12 col-sm-6 col-md-3">
-	    <img src="./images/samples/sample1.jpg" alt="sample flooring" class="img-rounded">
+		  <div class="thumbnail">
+			<img src="./images/samples/sample1.jpg" alt="sample flooring">
+			<div class="caption">
+				<h4>Bathroom Floor</h4>
+			</div>
+		  </div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-3">
-	    <img src="./images/samples/sample2.jpg" alt="sample flooring" class="img-rounded">
+		  <div class="thumbnail">
+			<img src="./images/samples/sample2.jpg" alt="sample flooring">
+			<div class="caption">
+				<h4>Hallway Floor</h4>
+			</div>
+		  </div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+	    &nbsp;
 	    </div>
 		<div class="col-xs-12 col-sm-6 col-md-3">
-	    <img src="./images/samples/sample2.jpg" alt="sample flooring" class="img-rounded">
-	    </div>
-		<div class="col-xs-12 col-sm-6 col-md-3">
-	    <img src="./images/samples/sample2.jpg" alt="sample flooring" class="img-rounded">
+	    &nbsp;
 	    </div>
 	  </div>
 	  
@@ -161,10 +162,20 @@
 	    <a name="about"></a><h1>About</h1>
 	  </div>
 	  
-	  <div class="well" align="center">
-	    <p>Founded by Tony Cavaney<br/>
+	  <div class="well">
+	    <p align="center">Founded by Tony Cavaney<br/>
 		Located in Edmonton, AB, Canada</p>
+		<p>Generations Decorating began with the idea to take the ancient art of papier-mâché to create
+		unique artistic floor coverings. Paper is used just as it was thousands of years ago; pieces are 
+		ripped from the hand-painted sheets. The irregularly ripped shapes are then glued onto the floor. 
+		Once dry, an industrial two-component urethane clear coat is applied over the floor, making it hard 
+		and shiny. One notable thing about the installation is that, as long as the underneath surface is 
+		sealed, the paper can go down over almost anything. Cracks and damage are easily hidden, and 
+		previously multi-covered surfaces (for example, plywood subfloor and old linoleum) can be blended 
+		seamlessly.</p>
 	  </div>
+	  
+	  
 	  
 	  <div class="page-header">	 
 	    <a name="contact"></a><h1>Contact</h1>
@@ -206,6 +217,57 @@
 			</div>
 		  </div>
 		</form>
+	  
+		<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+			  </div>
+			  <div class="modal-body">
+
+				<form class="form-horizontal" role="form">
+				  <div class="form-group">
+					<label for="inputSubject" class="col-sm-2 control-label">Inquiry Type</label>
+					<div class="col-sm-10">
+					  <select class="form-control">
+						<option value="Quote">Request Quote</option>
+						<option value="Information">Services Information</option>
+						<option value="Website">Website Issues</option>
+					  </select>
+					</div>
+				  </div> 
+				  <div class="form-group">
+					<label for="inputEmail" class="col-sm-2 control-label">Contact Email</label>
+					<div class="col-sm-10">
+					  <input type="email" class="form-control" id="inputEmail" placeholder="name@domain.com">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<label for="inputPhone" class="col-sm-2 control-label">Phone Number</label>
+					<div class="col-sm-10">
+					  <input type="tel" class="form-control" id="inputphone" placeholder="(780) 444-4444">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<label for="inputComments" class="col-sm-2 control-label">Message</label>
+					<div class="col-sm-10">
+					  <textarea class="form-control" id="inputComments" rows="3" placeholder="Text"></textarea>
+					</div>
+				  </div>				
+			  
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				<button type="submit" class="btn btn-primary" data-dismiss="modal">Send Message</button>
+				</form>
+			  </div>
+			</div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	  
+
 				
 	  
 
