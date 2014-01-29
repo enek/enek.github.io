@@ -2,18 +2,31 @@ body {
   padding-top: 20px;
 }
 
+h1 {
+	text-shadow:0 1px 1px rgba(0,0,0,0.6);
+}
+
+.dark {
+	color:#fff;
+}
+
+#contact {
+	background:#202020;
+}
+
 .footer {
   border-top: 1px solid #eee;
   margin-top: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
+  text-align: right;
 }
 
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
   margin-top: 20px;
-  background-image:url('./images/background.jpg');
+  background-image:url('./../images/background.jpg');
 }
 .jumbotron .btn {
   font-size: 21px;
